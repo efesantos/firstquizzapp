@@ -23,7 +23,7 @@ development:
 development:
   adapter: postgresql
   encoding: unicode
-  database: nomster_development
+  database: firstquizzapp_development
   pool: 5
   username: postgres
   password: password
@@ -52,7 +52,7 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: nomster_test
+  database: firstquizzapp_test
   pool: 5
   username: postgres
   password: password
@@ -61,7 +61,7 @@ test:
 production:
   adapter: postgresql
   encoding: unicode
-  database: nomster_production
+  database: firstquizzapp_production
   pool: 5
   username: postgres
   password: password
